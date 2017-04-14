@@ -1,0 +1,804 @@
+
+/home/hadoop04/hadoop-dist
+querying Farquhar ...
+Java HotSpot(TM) 64-Bit Server VM warning: You have loaded library /home/hadoop04/hadoop-dist/lib/native/libhadoop.so which might have disabled stack guard. The VM will try to fix the stack guard now.
+It's highly recommended that you fix the library with 'execstack -c <libfile>', or link it with '-z noexecstack'.
+16/11/30 21:40:54 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+16/11/30 21:40:54 INFO client.RMProxy: Connecting to ResourceManager at beret/129.64.2.180:54652
+16/11/30 21:40:55 INFO input.FileInputFormat: Total input paths to process : 1
+16/11/30 21:40:55 INFO mapreduce.JobSubmitter: number of splits:3
+16/11/30 21:40:56 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1479521124427_1201
+16/11/30 21:40:56 INFO impl.YarnClientImpl: Submitted application application_1479521124427_1201
+16/11/30 21:40:56 INFO mapreduce.Job: The url to track the job: http://beret.cs.brandeis.edu:8088/proxy/application_1479521124427_1201/
+16/11/30 21:40:56 INFO mapreduce.Job: Running job: job_1479521124427_1201
+16/11/30 21:41:03 INFO mapreduce.Job: Job job_1479521124427_1201 running in uber mode : false
+16/11/30 21:41:03 INFO mapreduce.Job:  map 0% reduce 0%
+16/11/30 21:41:11 INFO mapreduce.Job:  map 100% reduce 0%
+16/11/30 21:41:19 INFO mapreduce.Job:  map 100% reduce 100%
+16/11/30 21:41:19 INFO mapreduce.Job: Job job_1479521124427_1201 completed successfully
+16/11/30 21:41:19 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=375
+		FILE: Number of bytes written=354103
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=368881618
+		HDFS: Number of bytes written=363
+		HDFS: Number of read operations=12
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=3
+		Launched reduce tasks=1
+		Data-local map tasks=3
+		Total time spent by all maps in occupied slots (ms)=77896
+		Total time spent by all reduces in occupied slots (ms)=22144
+		Total time spent by all map tasks (ms)=19474
+		Total time spent by all reduce tasks (ms)=5536
+		Total vcore-seconds taken by all map tasks=19474
+		Total vcore-seconds taken by all reduce tasks=5536
+		Total megabyte-seconds taken by all map tasks=79765504
+		Total megabyte-seconds taken by all reduce tasks=22675456
+	Map-Reduce Framework
+		Map input records=998695
+		Map output records=1
+		Map output bytes=365
+		Map output materialized bytes=387
+		Input split bytes=408
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1
+		Reduce shuffle bytes=387
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=2
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=1109
+		CPU time spent (ms)=22680
+		Physical memory (bytes) snapshot=917512192
+		Virtual memory (bytes) snapshot=30101069824
+		Total committed heap usage (bytes)=472383488
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=368881210
+	File Output Format Counters 
+		Bytes Written=363
+Java HotSpot(TM) 64-Bit Server VM warning: You have loaded library /home/hadoop04/hadoop-dist/lib/native/libhadoop.so which might have disabled stack guard. The VM will try to fix the stack guard now.
+It's highly recommended that you fix the library with 'execstack -c <libfile>', or link it with '-z noexecstack'.
+16/11/30 21:41:22 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+rmr: DEPRECATED: Please use 'rm -r' instead.
+Java HotSpot(TM) 64-Bit Server VM warning: You have loaded library /home/hadoop04/hadoop-dist/lib/native/libhadoop.so which might have disabled stack guard. The VM will try to fix the stack guard now.
+It's highly recommended that you fix the library with 'execstack -c <libfile>', or link it with '-z noexecstack'.
+16/11/30 21:41:33 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Deleted output_ii
+16/11/30 21:41:34 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+Java HotSpot(TM) 64-Bit Server VM warning: You have loaded library /home/hadoop04/hadoop-dist/lib/native/libhadoop.so which might have disabled stack guard. The VM will try to fix the stack guard now.
+It's highly recommended that you fix the library with 'execstack -c <libfile>', or link it with '-z noexecstack'.
+16/11/30 21:41:44 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+16/11/30 21:41:45 INFO wikipedia.WikipediaPage: Loading forward index: /user/hadoop04/lt/forward_index/wiki.findex.dat
+16/11/30 21:41:45 INFO wikipedia.WikipediaPage: 6838 blocks expected
+16/11/30 21:41:45 INFO compress.CodecPool: Got brand-new decompressor [.deflate]
+16/11/30 21:41:45 INFO compress.CodecPool: Got brand-new decompressor [.deflate]
+16/11/30 21:41:45 INFO compress.CodecPool: Got brand-new decompressor [.deflate]
+16/11/30 21:41:45 INFO compress.CodecPool: Got brand-new decompressor [.deflate]
+16/11/30 21:41:45 INFO wikipedia.WikipediaPage: fetching docno 24728: seeking to 19079399 at /user/hadoop04/wiki2.block/part-00063
+16/11/30 21:41:45 INFO wikipedia.WikipediaPage:  docno 24728 fetched in 175ms
+16/11/30 21:41:45 INFO wikipedia.WikipediaPage: fetching docno 615181: seeking to 4363167 at /user/hadoop04/wiki2.block/part-00028
+16/11/30 21:41:45 INFO wikipedia.WikipediaPage:  docno 615181 fetched in 11ms
+16/11/30 21:41:45 INFO wikipedia.WikipediaPage: fetching docno 198598: seeking to 34993940 at /user/hadoop04/wiki2.block/part-00055
+16/11/30 21:41:45 INFO wikipedia.WikipediaPage:  docno 198598 fetched in 13ms
+16/11/30 21:41:45 INFO wikipedia.WikipediaPage: fetching docno 128035: seeking to 13103518 at /user/hadoop04/wiki2.block/part-00049
+16/11/30 21:41:45 INFO wikipedia.WikipediaPage:  docno 128035 fetched in 13ms
+16/11/30 21:41:45 INFO wikipedia.WikipediaPage: fetching docno 111057: seeking to 18037859 at /user/hadoop04/wiki2.block/part-00047
+16/11/30 21:41:45 INFO wikipedia.WikipediaPage:  docno 111057 fetched in 12ms
+16/11/30 21:41:45 INFO wikipedia.WikipediaPage: fetching docno 469709: seeking to 6592712 at /user/hadoop04/wiki2.block/part-00018
+16/11/30 21:41:45 INFO wikipedia.WikipediaPage:  docno 469709 fetched in 17ms
+16/11/30 21:41:45 INFO wikipedia.WikipediaPage: fetching docno 493352: seeking to 19587128 at /user/hadoop04/wiki2.block/part-00019
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage:  docno 493352 fetched in 16ms
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage: fetching docno 183303: seeking to 16917056 at /user/hadoop04/wiki2.block/part-00054
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage:  docno 183303 fetched in 16ms
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage: fetching docno 154865: seeking to 28171314 at /user/hadoop04/wiki2.block/part-00051
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage:  docno 154865 fetched in 12ms
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage: fetching docno 270633: seeking to 3811083 at /user/hadoop04/wiki2.block/part-00003
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage:  docno 270633 fetched in 13ms
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage: fetching docno 148191: seeking to 2086059 at /user/hadoop04/wiki2.block/part-00051
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage:  docno 148191 fetched in 9ms
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage: fetching docno 577312: seeking to 11654924 at /user/hadoop04/wiki2.block/part-00025
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage:  docno 577312 fetched in 13ms
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage: fetching docno 662690: seeking to 10946891 at /user/hadoop04/wiki2.block/part-00031
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage:  docno 662690 fetched in 11ms
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage: fetching docno 581682: seeking to 18474125 at /user/hadoop04/wiki2.block/part-00025
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage:  docno 581682 fetched in 9ms
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage: fetching docno 699010: seeking to 8384988 at /user/hadoop04/wiki2.block/part-00034
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage:  docno 699010 fetched in 11ms
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage: fetching docno 284217: seeking to 11944235 at /user/hadoop04/wiki2.block/part-00004
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage:  docno 284217 fetched in 14ms
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage: fetching docno 371653: seeking to 24207743 at /user/hadoop04/wiki2.block/part-00010
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage:  docno 371653 fetched in 16ms
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage: fetching docno 660795: seeking to 7530037 at /user/hadoop04/wiki2.block/part-00031
+16/11/30 21:41:46 INFO wikipedia.WikipediaPage:  docno 660795 fetched in 20ms
+...BEGINNING_OUTPUT...
+<title>George Farquhar</title>
+<content>George Farquhar
+ 
+ 
+George Farquhar (1677 The explanation for the dual birth year appears in Louis A. Strauss, ed., A Discourse Upon Comedy, The Recruiting Officer, and The Beaux’ Stratagem by George Farquhar (Boston: D.C. Heath & Co., 1914), p. v. Strauss notes that "Our sole source of information as to the time of his birth is the entry of his matriculation in the register of Trinity College" on July 17, 1694, where "His age is given as 17." Earlier biographers took this to mean Farquhar was in his 17th year--hence born in 1678--and Strauss favors this date. But later writers, such as William Myers, ed., George Farquhar: The Recruiting Officer and Other Plays, ISBN 0-19-282249-7 (Oxford: Oxford University Press, 1995), p. vii, give the dual year, and John Ross, ed., George Farquhar: The Recruiting Officer (New Mermaids), 2nd ed., ISBN 0-7136-3349-2 (London: A&C Black, 1991), p. xiii, gives a birthdate of "ca. 1677" for the playwright.  – 29 April 1707) was an Irish dramatist. He is noted for his contributions to late Restoration comedy, particularly for his plays The Recruiting Officer (1706) and The Beaux' Stratagem (1707).
+Early life
+Born in Derry, Ireland, Farquhar was one of seven children born to William Farquhar, a clergyman of modest means.    The author of "Memoirs of Mr. George Farquhar," a biographical sketch prefixed to certain 18th century editions Alex. Charles Ewald quotes from a slightly different version of these "Memoirs" in the introduction to his edition of The Dramatic Works of George Farquhar (London: John C. Nimmo, 1892), Vol. 1, p. vi-vii, and Strauss, op. cit, p. vi et seq., cites from but does not quote a biographical writing by "T. Wilkes" given in the 1775 Dublin edition of Farquhar which agrees in some but not all details with the version quoted in this article (referenced in the next note).  of his works, claims that Farquhar He entered Trinity College, Dublin at age 17 as a sizar under the patronage of the Bishop of Dromore,    who may have been related to Farquhar's mother.  Farquhar may have initially intended to follow his father's profession and become a clergyman,    but was "unhappy and rebellious as a student" and left college after two years to become an actor.    His 18th century biographer claims that the departure was because "his gay and volatile Disposition could not long relish the Gravity and Retirement of a College-life,"   but another story of uncertain veracity has him being expelled from Trinity College due to a "profane jest."   
+Acting career
+Farquhar joined a company performing on the Dublin stage, probably through his acquaintance with the well-known actor Robert Wilks.  However, Farquhar was reportedly not that impressive as an actor. We are told that "his Voice was somewhat weak"  and that "his movements [were] stiff and ungraceful."    But he was well received by audiences and thought to continue in this career "till something better should offer."  Some of the roles reportedly played by Farquhar were Lennox in Shakespeare's Macbeth, Young Bellair in The Man of Mode by George Etherege, Lord Dion in Philaster by Beaumont and Fletcher, and Guyomar in The Indian Emperor by John Dryden. But while he was performing in the Dryden play, an accident on stage put an end to Farquhar's acting career. As Guyomar, Farquhar was supposed to "kill" Vasquez, one of the Spanish generals in the drama. Forgetting to exchange his sword for a foil before enacting this scene, Farquhar severely wounded Price, the actor playing Vasquez. Although Price recovered, Farquhar resolved after this mishap to give up acting for good.     
+Writing career
+Farquhar then left for London, "possibly with a draft of his first play in his portmanteau."  Some writers tie his move to that of his friend Wilks, who had received an offer from the manager of Drury Lane to come to London and join that theatre,    and Wilks is also credited with encouraging Farquhar's efforts at writing plays.      Farquhar's first comedy, Love and a Bottle, was premiered in 1698; "for its sprightly Dialogue and busy Scenes," it is said to have been "well received by the Audience."  Called a "licentious piece" by one scholar,  and cited as proof that Farquhar had "absorbed the stock topics, character-types, and situations of Restoration comedy" by another,  the play deals with Roebuck, "An Irish Gentleman of a wild roving Temper" who is "newly come to London."    The general character of the play can be evaluated by considering that in the opening scene, Roebuck tells his friend Lovewell that he has left Ireland due to getting a woman pregnant with twins (a boy and a girl) and to Roebuck's father trying to force Roebuck to marry the woman; however, Roebuck remarks, "Heav'n was pleas'd to lessen my Affliction, by taking away the She-brat."   Most of these plot details are pointed out by William Myers, op. cit., p. vii. After the favorable reception of Love and a Bottle, Farquhar decided to devote himself to playwriting. He also at this point received a commission in the regiment of the Earl of Orrery, so his time for the next few years was divided between the vocations of soldier and dramatist.  It was also at about this time that Farquhar discovered Anne Oldfield, who was reading aloud a scene from The Scornful Lady at her aunt's tavern. Impressed, he brought her to the notice of Sir John Vanbrugh, and this led to her theatrical career, during which she was the first performer of major female roles in Farquhar's last comedies.   In 1700, Farquhar's The Constant Couple was acted at Drury Lane and proved a great success,    helped considerably by his friend Wilks' portrayal of the character of Sir Henry Wildair  (a performance that Farquhar himself praised generously in his "Preface to the Reader" when the play was published).    The playwright followed up with a sequel, Sir Harry Wildair, the following year, and in 1702 wrote both The Inconstant, or the Way to Win Him and The Twin Rivals. Also in 1702, Farquhar published Love and Business, a collection that included letters, verse, and A Discourse Upon Comedy.   The next year, he married Margaret Pemell, "a widow with three children, ten years his senior," who reportedly tricked him into the marriage by pretending to have a great fortune.    His 18th century biographer records that "though
+he found himself deceived, his Circumstances embarrassed, and his Family increasing, he never upbraided her for the Cheat, but behaved to her with all the Delicacy and Tenderness of an indulgent Husband."    He was engaged in recruiting for the army for the next three years, writing little except The Stage Coach in collaboration with Peter Motteux; this was an adaptation of a French play.    He drew on his recruiting experience for his next comedy, The Recruiting Officer (1706).  However, Farquhar had to sell his army commission to pay debts, reportedly after the Duke of Ormond advised him to do so, promising him another but failing to keep his promise.   Early in 1707, Farquhar's friend Wilks visited him;    Farquhar was ill and in distress, and Wilks is said to have "cheered him with a substantial present, and urged him to write another comedy."  This comedy, The Beaux' Stratagem, wsa given its première on 8 March 1707;  we know from Farquhar's own statement prefacing the published version of the play that he wrote it during his sickness: Farquhar died on 29 April 1707, not quite two months after the opening of this last play.    He was buried in the Church of St. Martin in the Fields, London, on May 3. 
+Works referencing Farquhar
+
+The 1987 play, Our Country's Good by Timberlake Wertenbaker, revolves around the story of 18th century Australian convicts attempting to put on Farquhar's The Recruiting Officer.  Wertenbaker's play is based on a novel by Thomas Keneally.   
+Bertolt Brecht set his adaptation of The Recruiting Officer, called Pauken und Trompeten, in America during the Civil War. 
+In Act III of She Stoops to Conquer by Oliver Goldsmith, Kate Hardcastle asks her maid, "Tell me, Pimple, how do you like my present dress?  Don't you think I look something like Cherry in the Beaux Stratagem?" A theatrical notice in the New York Times for February 7, 1885 remarked that at that date Goldsmith's allusion was "all that the stage [had] known of George Farquhar for many a year." "Daly's Theatre" in the New York Times for February 7, 1885, accessed on December 19, 2007 
+Alexander Pope famously refers to the playwright in "The First Epistle  of the Second Book of Horace, Imitated," where he comments (line 288), "What pert low Dialogue has Farqu'ar writ!" (It has been argued that this is not an attack by Pope on Farquhar, but an illustration of "how seldom ev'n the best succeed" two lines earlier.)   
+
+
+See also
+
+List of Northern Irish writers
+Timberlake Wertenbaker
+
+
+References 
+External links
+
+ 
+ 
+ 
+
+The Dramatic Works of George Farquhar, Vol. 1 and Vol. 2.
+Farquhar's A Discourse Upon Comedy.
+Project Gutenberg's text of The Beaux' Stratagem.
+ 
+
+  
+DEFAULTSORT
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </content>
+<positions><word>Farquhar#7,27,200</word></positions>
+<title>Hippotion aurora</title>
+<content>Hippotion aurora
+ 
+Hippotion aurora is a moth of the Sphingidae family. It is known from Madagascar, Assumption Island, the Farquhar Islands and the Glorioso Islands. It is similar to Hippotion celerio, but the forewing pattern is less contrasting and the pink coloration of the hindwing upperside is deeper pink. The forewing upperside is similar to Hippotion celerio and Hippotion osiris but the oblique and transverse lines reduced in intensity. The hindwing upperside is most similar to Hippotion aporodes but the pink spots of median band are somewhat more sharply defined. 
+Subspecies
+
+Hippotion aurora aurora (Madagascar and the Assumption Island)
+Hippotion aurora delicata  Rothschild & Jordan, 1915  (Farquhar Islands)
+Hippotion aurora gloriosana  Rothschild & Jordan, 1915  (Glorioso Islands)
+
+
+References 
+
+Pinhey, E (1962): Hawk Moths of Central and Southern Africa. Longmans Southern Africa, Cape Town.
+
+
+ 
+ 
+ </content>
+<positions><word>Farquhar#124,710</word></positions>
+<title>William Barry</title>
+<content>William Barry
+William Barry may refer to:
+
+William Barry (Australian politician)
+William B. Barry, politician from New York
+William Farquhar Barry (1818–1879), career officer in the United States Army, serving as an artillery commander during the Mexican-American War and Civil War
+William Francis Barry, British Catholic priest, theologian, educator and writer
+William Gerard Barry, Irish artist 
+William L. Barry, British Rower and Coach
+William T. Barry, politician from Kentucky and Postmaster General under Andrew Jackson
+William T. S. Barry (1821–1868), U.S. Representative from Mississippi
+
+ DEFAULTSORT 
+
+ </content>
+<positions><word>Farquhar#132</word></positions>
+<title>List of Alabama state prisons</title>
+<content>List of Alabama state prisons
+
+This is a list of state prisons in Alabama. It does not include federal prisons or county jails located in the state of Alabama.
+Current
+
+
+Alex City Work Release Center
+Atmore Work Release Center
+Bibb Correctional Facility
+Birmingham Work Release Center
+Bullock Correctional Facility
+Bullock Work Release Center
+Camden Work Release Center
+Childersburg Boot & Work Camp
+Childersburg Work Release Center
+Davis Correctional Facility
+Decatur Work Release Center
+William E. Donaldson Correctional Facility
+Draper Correctional Facility
+Easterling Correctional Facility
+Elba Work Release Center
+Elmore Correctional Facility
+Farquhar Cattle Ranch
+Fountain Correctional Facility
+Frank Lee Youth Center
+Hamilton Aged & Infirmed
+Hamilton Work Release Center
+Holman Correctional Facility
+Kilby Correctional Facility
+Limestone Correctional Facility
+Loxley Community Work Camp
+Loxley Work Release Center
+Mobile Work Release Center
+Montgomery Work Release Center
+Red Eagle Honor Farm
+St. Clair Correctional Facility
+Staton Correctional Facility
+Tutwiler Annex
+Julia Tutwiler Prison for Women
+Ventress Correctional Facility
+
+
+Former
+
+Wetumpka State Penitentiary, established in 1841 as the Alabama State Penitentiary
+
+
+External links 
+
+Alabama Department of Corrections
+
+ 
+ 
+
+</content>
+<positions><word>Farquhar#648</word></positions>
+<title>Margaret Trudeau</title>
+<content>Margaret Trudeau
+  
+Margaret Joan Sinclair Trudeau Kemper (born September 10, 1948) is the former wife of  Pierre Trudeau, the 15th Prime Minister of Canada. She is an author, actress, photographer and former television talk show hostess. She is the mother of Justin, Alexandre and Michel Trudeau.
+Early years and marriageTrudeau was born Margaret Joan Sinclair in Vancouver, British Columbia, Canada, the daughter of Doris Kathleen (née Bernard) and James Sinclair, a former Liberal member of the Parliament of Canada and Minister of Fisheries and Oceans.    One of her maternal ancestors was East India Company figure William Farquhar.    Her father was Scottish and her mother's ancestry included English, Scottish, Dutch, French, and a Malaysian 5 times great-grandparent.  Trudeau attended Simon Fraser University where she studied English literature.As an 18-year-old vacationing in Tahiti, she met Pierre Trudeau, who was then Minister of Justice. Ms. Sinclair did not recognize him, and she in fact thought little of their encounter, but Trudeau was captivated by the carefree "flower child," thirty years younger than himself, and began to pursue her. As Pierre Trudeau was a Catholic, she converted to Roman Catholicism for their marriage.Trudeau was still a bachelor when appointed prime minister in 1968. After keeping their romance private, the Prime Minister astonished the country by marrying the 22-year-old Sinclair on March 4, 1971, in a private ceremony. This raised some eyebrows among Canadians because of the age difference, but it was considered typical behaviour for a vivacious prime minister who prided himself on his "progressive" views and youthful vigour.  Asked about her role in a marriage to the prime minister, Margaret Trudeau said, "I want to be more than a rose in my husband's lapel."
+The couple had three children: Justin (born December 25, 1971), Alexandre (Sacha) (born December 25, 1973), and Michel (October 2, 1975 – November 13, 1998).Though the couple initially appeared to have a very close and loving relationship, the marriage soon began to fall apart. Margaret resented her husband's constant work-related absences and was forced to raise her three young sons largely by herself. Beyond the normal extensive publicity that her high-profile position brought, on a few instances she made her own headlines. Margaret smuggled drugs in the prime minister's luggage, made scantily clad appearances at Studio 54, and tore apart a tapestry in the prime minister's official residence in Ottawa because it celebrated "reason over passion".   Over time, the marriage disintegrated to the point that, as recounted in her book, Margaret had an affair with U.S. Senator Ted Kennedy. She also had an affair with Ronnie Wood.  Trudeau won custody of the children and did not pay any spousal support.  Margaret had a difficult time earning a living after her marriage. She wrote the book Beyond Reason about her marriage.Suffering from stress and bouts of bipolar depression, she separated from her husband in 1977 and became a much talked about jet-setter. She gave many "tell-all" interviews to Canadian and American magazines and appeared in two motion pictures.On the eve of the 1979 election, in which Trudeau's party lost the majority of seats in the House of Commons, Margaret was dancing at Studio 54 nightclub in New York City. A photo of her there was featured on many front pages across the country. She was also associated with Rolling Stone Ronnie Wood Link text , and according to Keith Richards's recent autobiography, Life, Mick Jagger{Page 393}. This added to the Canadian public's growing unease about "what would happen next."
+Life after divorceThe Trudeaus officially divorced in 1984, and a short time later Margaret married Ottawa real-estate developer Fried Kemper, with whom she had two children, Kyle and Alicia.      After her second marriage, Margaret virtually disappeared from the public eye.In November 1998, the Trudeaus' youngest son, Michel, an avid outdoorsman, was killed when an avalanche swept him to the bottom of British Columbia's Kokanee Lake. The loss of her son was devastating for her and Margaret suffered another mental breakdown that led to her second divorce.When Pierre Trudeau died in 2000, Margaret was at his bedside, with their sons, Justin and Alexandre.  Speaking in 2010 about her marriage to Trudeau she said; “Just because our marriage ended didn’t mean the love stopped,”. Today, she is the honorary president of WaterCan, an Ottawa-based organization dedicated to helping the poorest communities in developing countries build sustainable water supply and sanitation services.She was stopped by police on May 30, 2004, and charged with impaired driving and driving with 107 milligrams of alcohol per 100 millilitres of blood. The impaired driving charge was not pursued at trial and she was acquitted of the second charge by a judge who ruled that her rights had been violated by police who had no grounds to pull her over and denied her the right to counsel. She praised the Charter of Rights and Freedoms, which had been enacted by Pierre Trudeau, for her success. The Crown's appeal from this decision was denied. On May 5, 2006, Margaret announced that she had been suffering from bipolar disorder. Since then, she has advocated for reduced stigma of mental illness — bipolar disorder in particular — with speaking engagements across North America.  In 2007, Trudeau left Ottawa to live in Montreal to be closer to her sons, Justin and Alexandre.  Margaret Trudeau's last breakdown Macleans. 8 October 2010  She wrote Changing My Mind, a book about her personal experience having bipolar disorder, published by HarperCollins Canada in 2010.   
+Bibliography
+
+Trudeau, M. (1979), Beyond Reason, Grosset & Dunlap, ISBN 0-448-23037-2
+Trudeau, M. (1982), Consequences, Bantam Books, ISBN 0-553-01712-8
+English, John. Just Watch Me: The Life of Pierre Elliott Trudeau (2009)
+Trudeau, M. (2010), Changing My Mind, HarperCollins Publishers Ltd, ISBN 978-1-55468-538-7
+
+
+Filmography
+
+L'Ange Gardien (1978)
+Kings and Desperate Men (1981)
+
+Television
+
+Morning Magazine (1981-1983)
+Margaret (1983-1984)
+
+See also
+
+Spouses of the Prime Ministers of Canada
+Delbrook Senior Secondary School
+
+
+References 
+External links
+
+Maggie Trudeau fights to end mental illness stigma
+ 
+
+ 
+ 
+|-
+ 
+ 
+ 
+|-
+ 
+ 
+ 
+|-
+ 
+ 
+ 
+   
+DEFAULTSORT
+
+
+
+
+
+
+
+
+
+
+
+
+ </content>
+<positions><word>Farquhar#628</word></positions>
+<title>Sir Walter Farquhar, 1st Baronet</title>
+<content>Sir Walter Farquhar, 1st Baronet
+ 
+Sir Walter Farquhar, 1st Baronet (October 1738 – 30 March 1819) was a prominent Scottish physician of the late eighteenth and early nineteenth century, whose clientele included many of the leading figures of the day, including the Prince of Wales (later King George IV) and the Prime Minister William Pitt. Born in Garioch, Farquhar abandoned his medical studied at King's College, Aberdeen to join the British Army as a surgeon during the Seven Years War. He later worked as an apothecary in London and qualified as a physician, becoming popular with royalty and politicians and receiving a baronetcy for his services.
+LifeFarquhar was born in 1738, the son of Robert Farquhar, the minister at Garioch. His mother was Katherine (née Turing), the daughter of another minister. Farquhar took a degree at King's College, Aberdeen and began to study medicine under James Gregory. In 1760 however he abandoned his medical studies in Edinburgh and Glasgow and joined the 19th Regiment of Foot in the British Army as a surgeon. In 1761, the regiment was sent to Belle Île and subsequently to Gibraltar, where it remained at the end of the conflict.  Farquhar left the regiment at Gibraltar and spent 18 months travelling and studying medicine in France, working with Claude Nicolas le Cat in Rouen. In 1769, citing ill-health, Farquhar retired from the army and moved to London, opening an apothecary shop in Great Marlborough Street with his wife Anne Harvie, widow of a London doctor. Farquhar's practice gradually developed a steady clientele and he became a physician, awarded his MD from King's College, Aberdeen in 1796. He was made a Fellow of the Royal College of Physicians of Edinburgh and a licenceate of the Royal College of Physicians in the same year.  Among Farquhar's clients were many prominent figures of the period, including the Prince of Wales, Prime Minister William Pitt the Younger and prominent politician Lord Melville. This patronage led to him being awarded a baronetcy in 1796 and was soon appointed physician-in-ordinary to the Prince of Wales. With his reputation secured, Farquhar ran a very successful business until his retirement in 1813 with health problems. Farquhar died in London in March 1819 and was buried at St Martin-in-the-Fields in Westminster. His baronetcy passed to his eldest son, Sir Thomas Harvie Farquhar, 2nd Baronet, although it was his second son Robert Townsend Farquhar who was most successful, becoming the governor of Penang and Mauritius and subsequently a Member of Parliament. In 1821 he was awarded a baronetcy separate to that of his father. Although Sir Walter Farquhar was a very successful physician of his day, he did not publish or develop any medical knowledge and thus he had no lasting impact on British medicine. Farquhar, Sir Walter, Oxford Dictionary of National Biography, (subscription required), J. F. Payne, Retrieved 21 January 2009 
+Notes  
+ 
+ 
+  DEFAULTSORT
+
+
+
+
+
+
+
+
+</content>
+<positions><word>Farquhar#11,46,359</word></positions>
+<title>Robert Farquhar</title>
+<content>Robert Farquhar
+Robert Farquhar may refer to:
+
+Robert Townsend Farquhar (1776–1830), British colonial governor
+Robert D. Farquhar (1872–1967) architect
+Robert Wallace Farquhar, Red Baron's 54th victory.
+Robert W. Farquhar, aviation and space historian
+
+ </content>
+<positions><word>Farquhar#7,23,63</word></positions>
+<title>Martin Farquhar Tupper</title>
+<content>Martin Farquhar Tupper
+ 
+
+Martin Farquhar Tupper (July 17, 1810, London – November 1889, Albury, Surrey) was an English writer, and poet, and the author of Proverbial Philosophy.
+Early lifeHe was the eldest son of Dr. Martin Tupper (1780–1844), a medical man highly esteemed in his day who came from an old Guernsey family, by his wife Ellin Devis Marris (d. 1847), only child of Robert Marris (1749–1827), a landscape painter (by his wife Frances, daughter of the artist Arthur Devis).Martin Tupper received his early education at the Charterhouse. In due course of time he was transferred to Christ Church, Oxford where he took his degree of B.A. in 1832, of M.A. in 1835 and of DCL in 1847. At Christ Church, as a member of the Aristotle Class, he was a fellow student of many distinguished men, the Marquess of Dalhousie, the Earl of Elgin, William Ewart Gladstone and Francis Hastings Doyle.Having taken his degree of M.A., Tupper became a student at Lincoln's Inn and was called to the Bar in the Michaelmas Term, 1835. He did not, however ever practice as a barrister. In the same year he married his first cousin once-removed Isabella Devis, daughter of Arthur William Devis, by whom he was to have four sons and four daughters. About the same period commenced Tupper's literary career. He contributed to the periodicals of the day, but his first important essay in literature was a small volume entitled Sacra Poesis.
+Poetry and other writingsIn 1837 appeared the first series of Proverbial Philosophy, long series of didactic moralisings composed in a lawyer's chambers in Old Square, Lincoln's Inn, during part of the previous year. A typical example is: "Well-timed silence hath more eloquence than speech".  His work met at first with moderate success in Britain, while in the United States it was almost a total failure. It slowly picked up steam, however, and within thirty years it had passed through forty large editions in Britain by 1867, while nearly a million copies were sold in the United States. His blank verse is just prose cut up into suitable lengths; but the Proverbial Philosophy contained apt and striking expressions and appealed to a large section of the public.In 1839, Tupper published A Modern Pyramid to commemorate a Septuagint of Worthies, being sonnets and essays on seventy famous men and women; in 1841 An Author's Mind containing skeletons of thirty unpublished books; in 1844, The Crock of Gold, The Twins, and Heart tales illustrative of social vices, and which passed through numerous editions; in 1847, Probabilities, an Aid to Faith, giving  a new view of Christian evidences; A Thousand Lines, Hactenus, Geraldine, Lyrics, Ballads for the Times, Things to Come, A Dirge for Wellington, Church Ballads, White Slavery Ballads, American Ballads, Rifle Ballads, King Alfred, a patriotic play; King Alfred's poems, translated from Anglo-Saxon into corresponding English metres. In 1856, Paterfamilia's Diary of Everybody's Tour, The Rides and Reveries of Æsop Smith, and Stephan Langton a biographical novel, which sought, with much graphic painting to delineate England in the time of King John. He also published Cithara, a collection of Lyrics; Three Hundred Sonnets, A Phrophetic Ode and many other fugitive pieces, both verse and prose which appeared in various newspapers and magazines. In 1886 he published My Life as an Author.In 1845 Tupper was elected a Fellow of the Royal Society.   He received the gold medal for science and literature from the King of Prussia.A genial, warm-hearted man, Tupper's humane instincts prompted him to espouse many reforming movements; he was an early supporter of the Student Volunteer Movement, and did much to promote good relations between Britain and America. He tried to encourage African literature and was also a mechanical inventor in a small way. Critic Kwame Anthony Appiah, however, has used a quote from Martin Tupper's ballad "The Anglo-Saxon Race" 1850 as an example of the predominant understanding of "race" in the nineteenth century. Tupper's ballad appeared in the journal The Anglo-Saxon containing the lines: "Break forth and spread over every place/The world is a world for the Anglo Saxon race!"At the end of his life he vanished into obscurity and nowadays his work is forgotten, despite the words on his grave-stone in Albury churchyard: "Although he is dead, he will speak."
+LegacyTupper survives if at all as a second-rate, puffed up poet whose success was only possible in a literary market where "philistines" might be able to approve of his platitudes.  However, he also survives as a worthy target for a better poet: Sir William Schwenk Gilbert in his Bab Ballads.  In the poem Ferdinando and Elvira, or, The Gentle Pieman, Gilbert is describing how two lovers are trying to find out who has been putting mottos into "paper crackers" (a sort of 19th Century "fortune cookie").  Gilbert builds up to the following lines, eventually coming up with a spoof of Tupper's own style from Proverbial Philosophy:
+
+"Tell me, Henry Wadsworth, Alfred, Poet Close, or Mister Tupper,
+Do you write the bonbon mottoes my Elvira pulls at supper?"
+
+
+
+"But Henry Wadsworth smiled, and said he had not had that honour;
+And Alfred, too disclaimed the words that told so much upon her."
+
+
+
+"Mister Martin Tupper, Poet Close, I beg of you inform us";
+But my question seemed to throw them both into a rage enormous."
+
+
+
+"Mister Close expressed a wish that he could only get anight to me.
+And Mr. Martin Tupper sent the following reply to me:--"
+
+
+
+"A fool is bent upon a twig, but wise men dread a bandit."
+Which I think must have been clever, for I didn't understand it."
+
+The three other references are also recognizable (the Bab Ballad was from 1869 or so).  They are Henry Wadsworth Longfellow and Lord Tennyson (both still read and remembered) and "Poet" John Close, a well-meaning scribbler of the mid-Victorian period who wrote hackwork to honor local events (some samples are in the classic volume of bad verse, The Stuffed Owl, as is a good sample of Tupper's own work).He was also one of the worthies mentioned in the "Heavy Dragoon" song in Gilbert's libretto for the Savoy Opera "Patience"::"Tupper and Tennyson, Daniel Defoe"In Anthony Trollope's "The Eustace Diamonds", Lucy Morris attempts to read "Tupper's great poem" out of boredom when she's first at Lady Linlithgow's house.Karl Marx likens Tupper's style of poetry to the appeal of Utilitarianism. In Das Kapital, he writes, "Bentham is among the philosophers what Tupper is among poets. Both could only have been manufactured in England." Edmund Clerihew Bentley wrote flippantly: "Martin Tupper / Sang for his supper. / Though the supper wasn't nice, / It was cheap at the price."G.K. Chesterton also mentions him in The Man Who Was Thursday.In the video game, Alice: The Madness Returns, Alice retrieves a memory of her mother stating, "Whoever said "There is no book so bad, but something good may be found in it" never read Martain Farquar Tupper's Proverbial Phiosophy."
+References 
+
+ 
+Tupper, The People's Standard Library
+Appiah, Kwame Anthony, article "Race"in Critical Terms for Literary Study, ed. Frank Lentricchia and Thomas McLaughlin, [University of Chicago Press: 1995], 274-287
+Gilbert, W. S. Plays & Poems of W. S. Gilbert with a Preface by Deems Taylor (New York: Random House, 1932), p. 938-939 (the quote from "Ferdinando and Elvira".
+
+
+External links 
+
+ 
+
+ 
+ 
+DEFAULTSORT
+
+
+
+
+ 
+ </content>
+<positions><word>Farquhar#7,33</word></positions>
+<title>Walter Thomson</title>
+<content>Walter Thomson
+ 
+ 
+Walter Cunningham Thomson (December 21, 1895 - April 27, 1964) was a politician, lawyer and rancher in Ontario, Canada. Thomson first ran for the leadership of the Ontario Liberal Party in 1943 but came in fourth place losing to Harry Nixon. He was first elected to the Canadian House of Commons in the 1949 federal election. In 1950, he left federal politics and ran again for the leadership of the Ontario Liberal Party and won, defeating social reformer Harry Cassidy. In the 1951 Ontario provincial election, he failed to win election to the Legislative Assembly of Ontario, and the Liberals lost six of the 13 seats they had previously held. He remained leader of the party for another three years due to its state of disorganization, and was replaced by Farquhar Oliver in 1954.
+External links
+
+ 
+
+  
+DEFAULTSORT
+
+
+
+
+
+</content>
+<positions><word>Farquhar#779</word></positions>
+<title>Walter Hook</title>
+<content>Walter Hook
+ 
+Walter Farquhar Hook (13 March 1798 – 20 October 1875),  was an eminent Victorian churchman.
+Background
+He was the Vicar of Leeds responsible for the construction of the current Leeds Parish Church and for many ecclesiastical and social improvements to the city in the mid-nineteenth century. His achievements, as a High Churchman and Tractarian in a non-conformist city are remarkable. Later in life he became Dean of Chichester.
+Biography
+Early life
+Hook was born the son of James Hook, FRS and his wife Anne, daughter of Sir Walter Farquhar MD, in London on 13 March 1798, and educated first at Blundell's School in Tiverton, then Winchester College, and Christ Church, Oxford, where he graduated in 1821. On taking Holy Orders, he served first as a curate at his father's church, St. Mildred's Church, Whippingham on the Isle of Wight, later as vicar at St. Mary's Church, Moseley, Birmingham, and, from December 1828, vicar of the Holy Trinity Church, Coventry.
+Leeds
+His support for the ideals of the Tractarians exposed him to considerable criticism, but his "simple manly character and zealous devotion to parochial work gained him the support of widely divergent classes", according to the 1911 Encyclopædia Britannica.This was nowhere better demonstrated than in Leeds, which invited him to be its Vicar in 1837. The city was undergoing rapid expansion as one of the seats of the early industrial revolution, much of the commercial drive for which emerged from non-conformists. The established church in the city was a minority denomination – dissenters were even elected as churchwardens (though some became "Churchmen" during their time of office). In 1842 the elections produced a slate of Chartist churchwardens [Stephens (1878) pages 118-119].One of his earliest acts was to arrange for the rebuilding of the church, to be paid by the church rate levied by the city authorities; this was in the face of understandable objections from non-conformists, who objected to a statutory levy which funded a – for Leeds – minority church.  Hook went on to drive through the division of Leeds into 21 parishes, each with its own church. He took a cut in his income and moved to a smaller parsonage-–but only on condition that every ground floor seat in all the parish churches in the town should be bought by the Ecclesiastical Commissioners, “the floor of every church to be wholly free and unappropriated” (rather than allowing pews to be rented) He fostered the building and support of some 30 schools. His interest in the education of children was not without controversy - this at a time long before the Education Acts of the late nineteenth century, and at a time that such bills as the "Ten Hour Act"  seeking to limit the working hours of children were being considered. Hook's insistence on the necessity of education and the duty of society in this respect, to some extent, went in the face of some of his richest parishioners. Equally, his success in his endeavours and popularity amongst the people of Leeds reflect the fact that he reflected the Zeitgeist - the spirit of the age – by re-establishing the interest of the church in the affairs of the people of the city. The Parish Church remains as a physical legacy of Hook's work, being an early, important and influential high church Gothic revival design.
+Chichester
+Hook left Leeds to take up the Deanery of Chichester in 1859, and died and was buried in the city's cathedral in October 1875. He had married Anna Delicia, daughter of Dr John Johnstone, physician, of Birmingham.He was elected a Fellow of the Royal Society in 1862 as someone "Eminent as a Divine. Author of the Lives of the Arch-bishops of Canterbury, of The Ecclesiastical Biography, Church Dictionary & several other works."  A memorial to Hook was built in the Leeds Parish Church, and in 1903 a statue was erected to him in City Square, in the company of a select few other leading fathers of the city.
+Writings
+
+1842: Church Dictionary (often reprinted)
+1845: Dictionary of Ecclesiastical Biography. 8 vols. 1845-1852
+1860: Lives of the Archbishops of Canterbury. 12 vols. 1860-1876
+
+ 
+ 
+ 
+ 
+ 
+ 
+References 
+Sources
+
+Leodis: Leeds
+Stephens, W. R. W. (1878) The Life and Letters of Walter Farquhar Hook. 2 vols. London: Richard Bentley & Son
+Obituary of Dean Hook, The Times, Thursday, 21 October 1875; p. 8; Issue 28452; col F
+
+
+Further reading
+
+Stranks, C. J. (1954) Dean Hook. London: A. R. Mowbray
+Harry Dalton Anglican Resurgence under W.F.Hook in Early Victorian Leeds ISBN 0-900741-60-0
+
+
+External links
+
+Bibliographic directory from Project Canterbury
+The Life and Letters of Walter Farquhar Hook, 1878 book from Windows Live Search Books
+Leeds Parish Church
+ 
+ 
+ 
+DEFAULTSORT
+
+
+
+
+
+
+
+
+
+
+</content>
+<positions><word>Farquhar#21</word></positions>
+<title>Farquhar Oliver</title>
+<content>Farquhar Oliver
+ 
+Farquhar Robert Oliver (March 6, 1904 – January 22, 1989) was a politician in Ontario, Canada.Oliver was elected to the Legislative Assembly of Ontario as a United Farmers of Ontario Member of the Legislative Assembly in the 1926 provincial election at the age of 22.   Oliver was re-elected as a UFO MLA in the 1929 election and was the sole (and last) United Farmers member in the legislature until 1940.  In that year, he formally joined the Ontario Liberal Party and the cabinet of Premier Mitchell Hepburn as Minister of Public Works and Welfare after informally supporting the Liberals since 1934.  Oliver quit the cabinet in late October 1942, in protest against Hepburn's leadership of the Liberal Party. Hepburn had quit as Premier of Ontario but refused to resign as leader, and appointed Gordon Daniel Conant as the new Premier without consulting the party.  Oliver's resignation contributed to a crisis that eventually led to  both Hepburn and Conant's resignations and a leadership convention in May 1943. Harry Nixon was elected the party's new leader.  Oliver rejoined the cabinet under new Premier Harry Nixon as Deputy Premier, but Nixon's government was short-lived, going down to defeat in the October 1943 election placing third behind the victorious Progressive Consevatives and the Co-operative Commonwealth Federation which became the Official Opposition.  Oliver became the party's acting leader in the legislature 1945 after Hepburn, who had regained the leadership of the party, lost his seat in the 1945 provincial election. The Liberals, nevertheless, displaced the CCF and Oliver became Leader of the Opposition and then permanent leader of the party in 1947 by defeating four other candidates to win a leadership convention. He led the party through the 1948 election that again reduced the Liberals to third place behind the Tories and CCF. Oliver resigned the leadership in 1950, and was replaced by Walter Thomson.  However, Thomson was unable to win election to the Legislature, so Oliver remained house leader.  Oliver became party leader again from 1954 until 1958, including the 1955 election. Despite his experience, he was never able to lead his party to victory. Farquhar Oliver retired from the legislature in 1967, and died in 1989 at the age of 85.Farquhar Oliver was the nephew of British Columbia Premier John Oliver.
+External links
+
+Farquhar Robert Oliver at The Canadian Encyclopedia
+Parliamentary History
+
+ 
+   Ontario Liberal leader
+ 
+ Preceded by: Mitchell Hepburn
+ First leadership (1945–1950)
+ Followed by: Walter Thomson
+ 
+ Preceded by: Walter Thomson
+ Second leadership (1954–1958)
+ Followed by: John Wintermeyer
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+DEFAULTSORT
+
+
+
+
+
+
+ </content>
+<positions><word>Farquhar#0,18</word></positions>
+<title>Murray Farquhar</title>
+<content>Murray Farquhar
+ 
+ 
+Murray Farquhar OBE (7 July 1918–3 December 1993) was the Chief Stipendiary Magistrate of New South Wales between 1971 and 1977.    Farquhar was born in the mining city of Broken Hill, New South Wales in Far West New South Wales. He attended Broken Hill High School and served in the Australian Army in the Second World War. After his military service, he studied law, practiced as a solicitor and was appointed as a magistrate in 1962. He was appointed Chief Stipendiary Magistrate in 1971. Farquhar was convicted and jailed in 1985 for his corrupt influence in a fraud case brought against the head of the Australian Rugby League, Kevin Humphreys.  During his trial, it became clear that Farquhar had deep roots in the criminal community, including connections to George Freeman and Nick Paltos.  Much of the investigative work in the Farquhar case was due to the efforts of the Australian Broadcasting Corporation's Four Corners program.  Murray Farquhar has been played by both John Clayton in the docudrama The Day of the Roses and by John Wood in the drama series Underbelly: A Tale of Two Cities.
+References 
+Further reading
+
+ 
+
+ 
+ 
+DEFAULTSORT
+
+
+
+
+
+ </content>
+<positions><word>Farquhar#7,27</word></positions>
+<title>Edward Clive (British Army officer)</title>
+<content>Edward Clive (British Army officer)
+ 
+ 
+General Edward Henry Clive DL, JP (23 September 1837 – 1 March 1916), was a British soldier and Liberal politician.
+Military careerClive was the son of George Clive and Ann Sybella Martha, daughter of Sir Thomas Farquhar, 2nd Baronet. The Peerage.com  He was commissioned into the Rifle Brigade in 1854  and then transferred to the Grenadier Guards.  He was appointed Commandant at the Staff College, Sandhurst in 1885 and Governor and Commandant of the Royal Military College Sandhurst in 1888 remaining in that post until 1893. 
+Political careerClive succeeded his father (who had been unseated on petition) as Member of Parliament for Hereford in 1869, but only held the seat until 1871,  when he resigned through appointment as Steward of the Chiltern Hundreds. He never returned to the House of Commons. He was also a Deputy Lieutenant of Herefordshire and County Mayo and Justice of the Peace for Herefordshire and County Mayo. 
+FamilyClive married Isabel, daughter of Daniel Hale Webb, in 1867.  They had five sons, including Sir Sidney Clive, and four daughters.  Clive died in March 1916, aged 78.  His wife survived him by six years and died in April 1922. 
+References 
+
+ 
+
+
+External links
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+|-
+ 
+ 
+ 
+ 
+|-
+  
+ 
+ 
+  
+DEFAULTSORT
+
+
+
+
+
+
+
+</content>
+<positions><word>Farquhar#252</word></positions>
+<title>Robert D. Farquhar</title>
+<content>Robert D. Farquhar
+ 
+Robert David Farquhar (23 February 1872 - 6 December 1967) was an architect working in California 1905 - 1940.
+Early lifeFarquhar was born in Brooklyn, New York, the son of  David Webber Farquhar (1844–1905)    and Sarah Malvina Joslyn.  He attended Phillips Exeter and Harvard (class of 1893).  Farquhar completed  an architectural degree at the Massachusetts Institute of Technology (1893–1895), and then attended École des Beaux-Arts in Paris (1896–1901).   He returned to New York and worked in the office of Hunt & Hunt, and of Carrère and Hastings.
+Los Angeles practiceFarquhar moved to Los Angeles, California in 1905 and practised architecture there. He was appointed a member of the architectural commission of the Panama-Pacific Exposition, held in San Francisco in 1915, and designed Festival Hall.   He went to Italy with the American Red Cross in 1918, and re-opened his office in Los Angeles in 1919.    The Southern California Chapter of the American Institute of Architects awarded Farquhar its Distinguished Honor Award for the William Andrews Clark Mausoleum, and Certificates of Honor for the design of the William Andrews Clark Memorial Library and the California Club.  He worked with chief architect George Edwin Bergstrom on design of the Pentagon in 1941.  The archives of his architectural studies and drawings are maintained at the UCLA Department of Special Collections.  
+Image:PostcardSanFranciscoCAPanPacificExpoFestivalHall1915.jpg|Festival Hall, 1915
+Image:Tomb william a clark jr.jpg|William Andrews Clark, Jr. Mausoleum, 1920
+Image:ParamourMansion.jpg|Canfield-Moreno Estate, 1923
+Image:clark main.jpg|William Andrews Clark Memorial Library, 1924
+Image:California Club 1.JPG|California Club, 1930
+ 
+Some projects
+
+Project  Date Address Location 
+Adelbert and Eva Fenyes Residence  1906  170 N. Orange Grove Boulevard Pasadena 
+Dr. R.P. McReynolds House 1908   Los Angeles 
+Gorham House  1910  336 Adelaide Drive  Santa Monica 
+Henry Weyse/Charles Morris House 1910  401 Ocean Avenue Santa Monica 
+R.D. Farquhar Residence 1911  147 Georgina Avenue Santa Monica 
+Charles Eaton House    1913  1161 Virginia Road San Marino 
+Festival Hall (1915 Panama-Pacific Exposition)  1915   San Francisco 
+William Andrews Clark Mausoleum  1916   5950 Santa Monica Boulevard  Hollywood  
+Thomas C. Marlowe Residence 1921  1241 Oak Knoll Avenue  Pasadena 
+William Andrews Clark Memorial Library 1922  2520 Cimarron Street  Los Angeles 
+Canfield-Moreno Estate  1923  1923 Micheltorena Street  Silver Lake 
+Alice McManus Clark Library   1927  1664 N. Virginia Street  Reno 
+Beverly Hills High School  1928  241 Moreno Drive  Beverly Hills 
+California Club  1930  538 South Flower Street  Los Angeles 
+Owlwood - Roland Arnall mansion   1936  South Carolwood Drive Los Angeles 
+Harold McCormick House 1939   Beverly Hills 
+William Garland House  1940   Pebble Beach 
+
+Family lifeFarquhar married Marion Jones (daughter of  John Percival Jones) in New York City, in 1903. They had three children: David Farquhar (1904 - ),  John Percival Farquhar (1912 - ) and Colin Farquhar (1913 - ). The family lived first in Santa Monica, then moved to Pasadena in 1929. Farquhar retired in 1953 and lived with his half brother Francis P. Farquhar in Berkeley. 
+References  
+DEFAULTSORT
+
+
+
+
+
+
+
+
+
+
+
+ </content>
+<positions><word>Farquhar#10,34,208</word></positions>
+<title>WildTomato (magazine)</title>
+<content>WildTomato (magazine)
+ 
+ 
+ WildTomato is a glossy monthly lifestyle magazine, focused on the Nelson and Marlborough regions – the Top of the South Island of New Zealand. The regional magazine was launched in July 2006. Official WildTomato website 
+HistoryFounder Murray Farquhar launched WildTomato as a 16-page local magazine in Nelson in July 2006, aiming to create an "essential lifestyle magazine" for the Nelson region.  His initial plan was for a weekly printed magazine, before the magazine eventually shifted to a larger monthly publication.  The magazine targets a readership of people aged 30-plus in the middle-to-upper socio-economic groups.   The current majority owner of the magazine is Jack Martin, an immigrant to Nelson from the United Kingdom, who initially became editor of WildTomato in December 2007. Martin oversaw a substantial evolution in the scope, size, print quality, and regional coverage of the magazine, which is now published as an 80-plus page high quality glossy magazine that focuses on the entire Top of the South Island of New Zealand. In March 2008 Martin began the process to buy WildTomato from Farquhar, eventually completing the sale in September 2008. In November 2009, WildTomato changed formats, becoming a perfect-bound standard-sized 100-page magazine, shifting from its traditional oversized saddle-stitched format. Earlier in 2009 the magazine's website was also revamped. 
+Community involvementThe magazine has quickly become involved in its local communities, sponsoring and otherwise being involved in many events   including featuring several on a monthly basis in its "Snapped" pages, and creating the annual reader-voted Dine Out Awards to highlight the best of the best in terms of Top of the South food, wine, and hospitality.  The magazine is further entwined with its local regions by predominantly using a wide range of local writers and photographers as its contributors.      
+ContentThe content of WildTomato reflects the neighbouring regions it covers, which are renowned both in New Zealand and internationally for their sunny climate,  stunning natural beauty such as the Marlborough Sounds, thriving arts community,  diverse national parks such as the Abel Tasman National Park, Nelson Lakes National Park and Kahurangi National Park, excellent food and wine, and wide range of adventure activities. Many of the columns and regular features in the magazine focus on one or more of these aspects of the area. 
+Feature articlesThe magazine includes larger feature articles highlighting some of the issues, personalities, and landscapes of the regions, including famous people who are originally from the area, such as Nobel Prize winning father of nuclear physics Baron Ernest Rutherford. Famous or notable people that have been interviewed by the magazine include sports stars Simon Mannering and Phill Jones, internationally acclaimed Cloudy Bay Vineyards winemaker Kevin Judd and Neudorf winery owner Judy Finn, pioneering cafe owner Eelco Boswijk, professional dancer and 2009 Dancing with the Stars winner Samantha Hitchcock, and former Prime Ministers Sir Geoffrey Palmer and Jenny Shipley.
+InterviewsEach month WildTomato includes a variety of themed interviews, focusing on people in or from the region, who are involved in certain things that are considered strongly associated with the Top of the South, or are simply fascinating in other ways. Currently the three interview columns are Creative Ones (Nelson is well known as a creative arts centre), The Great Outdoors (the Top of the South has a rich natural landscape and a strong sporting culture), and A Life Less Ordinary. The Great Outdoors interview column replaced the Locals Abroad column (people from the Top of the South living fascinating lives overseas), which had run for the previous 18 months, in July 2009.Previous interviewees featured in these columns include acclaimed Golden Bay muralist Chris Finlayson,  world championship motocross star Josh Coppins, Tall Blacks basketball coach Nenad Vucinic, author Marguerite van Geldermalsen,  children's educational DVD creator Emma Heke  and NZ Open surfing champion Angie Koops.
+Food, Fashion, and HealthAs a lifestyle magazine, a significant amount of WildTomato's content is also devoted to food, drink, fashion and health. The magazine includes regular monthly columns on food, recipes, reviews of local eateries, and issues relating to the local wine industries. Marlborough is the major wine-growing region in New Zealand, and Nelson is also increasingly well known for high-quality wines. Internationally trained chef and nutritionist Nicola Galloway  writes the monthly food column. Fashion also features heavily, with the magazine increasingly known for high-quality multi-page fashion spreads in each issue, often shot by English lifestyle photographer Daniel Allen. 
+Use of ImagesWildTomato is noticeably visual and image-centric – packed with large, high quality photos – as Martin believes quality photos are crucial to any magazine.   On occasion, the magazine also includes photo essays over several pages, highlighting happenings in the region, such as some large forest fires that burned the hills behind Nelson earlier in 2009.
+References 
+External links
+
+Official site
+Facebook group page
+
+DEFAULTSORT
+
+
+
+
+</content>
+<positions><word>Farquhar#270</word></positions>
+<title>John Farquhar Munro</title>
+<content>John Farquhar Munro
+ 
+John Farquhar Munro (Gaelic: Iain Fearchar Rothach) (born 26 August 1934) is a Scottish Liberal Democrat politician, and was the MSP for Ross, Skye and Inverness West from 1999 until his retirement in 2011.Previously a crofter and a local councillor for 33 years, he was first elected to the Scottish Parliament at the 1999 election.  Running against him for Labour was Donnie Munro, former member of the band Runrig, but Munro won by 1,539 votes.  He was one of three Lib-Dem MSPs to oppose his party's coalition with the Labour Party (along with Keith Raffan and Donald Gorrie) and has deviated from the Executive on a number of issues (such as land reform, on which he believes they are not moving quickly enough).He was prominent within the parliament in opposing the Skye Bridge tolls, to the extent of threatening to resign from the Lib Dems if they were not removed. The tolls were abolished in December 2004.As befitted one of the few native Gaelic speakers in the Scottish Parliament he co-sponsored (along with the Scottish National Party's Michael Russell) a bill to secure the language's status as being equal to English. He was angry when the then Labour-Liberal Scottish Executive refused to back it.He was re-elected to the Scottish Parliament at the 2003 election with an increased share of the vote.After the 2007 election he was the oldest MSP in Holyrood. He stepped down as an MSP at the Scottish Parliament general election, 2011 at which time his constituency was abolished.  In a surprise move Munro expressed support for Alex Salmond in the 2011 Scottish Parliament elections. 
+References 
+External links
+
+John Farquhar Munro MSP official biography at the Scottish Parliament website
+John Farquhar Munro MSP profile at the site of Scottish Liberal Democrats
+
+ 
+ 
+ 
+ 
+  
+DEFAULTSORT
+
+
+
+
+
+
+
+
+
+
+ 
+ </content>
+<positions><word>Farquhar#5,27</word></positions>
+<title>John Munro</title>
+<content>John Munro
+John Munro may refer to: 
+Political figures
+
+J. B. Munro (born 1936), New Zealand politician, represented Invercargill electorate
+John Farquhar Munro (born 1934), Scottish Liberal Democrat MSP
+John Munro (Canadian politician) (1931–2003), Canadian Member of Parliament and cabinet minister
+John Munro (New Zealand politician born 1839) (1839–1910), New Zealand politician, represented Buller electorate
+John W. Munro (fl. 1900s), Scottish-born Canadian politician
+John Munro (New Zealand politician born c. 1798) (c. 1798–1879), New Zealand politician, represented Marsden electorate
+John Munro (loyalist) (1728–1800), United Empire Loyalist and political figure in Upper Canada
+Sir John Munro, 4th Baronet (died 1697), Scottish baronet
+John Munro, 11th Baron of Foulis (died 1491), Scottish clan chief of the highland Clan Munro in Rosshire, Scotland
+
+
+Writers
+
+John Munro (poet) (1889–1918), Scottish soldier and poet
+John Munro (author) (1849–1930), English science and science-fiction author
+John Neil Munro, Scottish journalist and author of biographies
+
+
+Others
+
+John Munro (sportsman) (born 1928), Western Australian cricketer and WAFL player
+John Arthur Ruskin Munro (1864–1944), Rector of Lincoln College, Oxford, 1919–44
+John Munro, 9th of Teaninich (1778–?), Scottish soldier of the British H.E.I.C
+John Munro (surgeon) (1670–1740), surgeon and professor at Edinburgh University
+John Munro, 4th of Newmore (died 1749), Scottish-British military officer
+John Munro of Tain (died c. 1630), Scottish Presbyterian minister
+John Campbell Munro (born 1947), Scottish-born Australian folk musician
+
+
+See also
+
+John Monroe (disambiguation)
+John Monro (disambiguation)
+
+ </content>
+<positions><word>Farquhar#146</word></positions>
+<title>David Farquhar</title>
+<content>David Farquhar
+David Andress Farquhar was born in Cambridge, New Zealand in 1928 but spent most of his early years in Fiji.He was educated in New Zealand,and was a pupil at St Peter's School in Cambridge and Wanganui Collegiate. He was an accomplished Sportsman and Academic at both Schools, Captaining the Cricket team in summer and Hockey in Winter. He also broke  many of their short and middle distance running records.  He began his university studies in Christchurch before completing his degree at Victoria University of Wellington where he studied with Douglas Lilburn. He went to the United Kingdom where he completed a Master of Arts at the University of Cambridge, and also studied composition with Benjamin Frankel at the Guildhall School of Music in London.On his return to New Zealand he joined the staff of the Department of Music at Victoria University, and was made Professor of Music in 1976, retiring in 1993. He was the Founder-President of the Composers Association of New Zealand in 1974 and was awarded their Citation for Services to New Zealand Music in 1984.In 2004 he was made a Companion of the New Zealand Order of Merit for his services to music.  
+  He has written numerous orchestral, choral, stage and instrumental works, songs and music for children, and has been recognized since the 1950s as being at the forefront of New Zealand composition.David Farquhar died in Wellington, New Zealand on 8 May 2007.
+Compositions
+Ring Round the Moon
+This music was originally commissioned by Richard Campion for the New Zealand Players' production of Ring Round the Moon, Christopher Fry's adaptation of Jean Anouilh's play L'invitation au château. In the second act a ball takes place offstage and the text specifies a large number of dances. The music was first recorded on acetate discs by an ad hoc orchestra led by Alex Lindsay; these small recordings were then played through speakers for the production, sounding very loud to the cast but filtering out more gently to the audience.At the end of the long national tour, the cast knew the music very well and suggested to David Farquhar that he should do something with it. The result, some years later, 1957, was a suite of nine dances first performed by the Alex Lindsay Orchestra. This rapidly became Farquhar's most performed piece and was commercially recorded by the Alex Lindsay Orchestra in 1962, a recording still available today as a CD reissue.Ashley Heenen, through the NZ APRA Committee, commissioned an arrangement for full orchestra for the National Youth Orchestra to take on a tour of Europe and China in 1975. This version was shortened to six dances by leaving out the first three numbers. The music has also been used for a ballet, The Wintergarden, choreographed by Arthur Turnbull for the Royal New Zealand Ballet, and a variety of other versions exists: a Waltz Suite (1989) for string orchestra; an arrangement of the original Dance Suite (1992) for violin and piano; as well as shorter arrangements for both brass band and concert band.
+Other compositions
+
+A Unicorn For Christmas, opera in three acts 	
+Concertino for piano and strings 	
+Concerto for guitar and chamber orchestra 	
+Concerto for Wind Quintet, for flute, oboe, clarinet, bassoon and horn 	
+In Despite Of Death, a song cycle for baritone and piano 	
+Magpies and other birds, settings of three poems by Denis Glover for vocal quartet
+No-one and anyone, a setting of anyone lived in a pretty how town by E. E. Cummings for vocal sextet
+Partita, for piano 	
+Ring Round the Moon, Dance Suite for small orchestra 	
+Scherzo for orchestra 	
+String Quartet 	
+Suite, five-movement work for guitar - Prelude, Capriccio, Ostinato, Rondino and Epilogue.
+Symphony No. 1 for orchestra 	
+Symphony No. 2 for orchestra 	
+The Islands, song cycle for SATB choir 	
+Three Cilla McQueen Songs, for mezzo-soprano and piano 	
+Three Improvisations, for piano
+
+
+Sources 
+  
+Further reading
+
+Thomson, John Mansfield. 1990. "Farquhar, David (Andress)", Biographical Dictionary of New Zealand Composers, edited by John Mansfield Thomson, 58–61. Wellington: Victoria University Press. ISBN 0-86473-095-0
+Thomson, J[ohn]. M[ansfield]. 2001. "Farquhar, David (Andress)". The New Grove Dictionary of Music and Musicians, second edition, edited by Stanley Sadie and John Tyrell. London: Macmilln Publishers.
+
+ 
+ 
+DEFAULTSORT
+
+
+
+
+
+
+
+
+ </content>
+<positions><word>Farquhar#6,29</word></positions>

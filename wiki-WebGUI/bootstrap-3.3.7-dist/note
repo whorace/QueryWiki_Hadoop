@@ -1,0 +1,20 @@
+bootstrap depend on jQuery
+so jQuery should be introduce before bootstrap itself
+
+Bootstrap框架在这一部分做了一定的变更，不再一味追求归零，而是更注重重置可能产生问题的样式（如，body,form的margin等），保留和坚持部分浏览器的基础样式，解决部分潜在的问题，提升一些细节的体验，具体说明如下：
+
+移除body的margin声明
+设置body的背景色为白色
+为排版设置了基本的字体、字号和行高
+设置全局链接颜色，且当链接处于悬浮“:hover”状态时才会显示下划线样式
+
+body {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #333;
+background-color: #fff;
+}
+p {
+ margin: 0 0 10px;
+}

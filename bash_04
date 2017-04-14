@@ -1,0 +1,7 @@
+bin/yarn jar ~/wiki-0.0.1-SNAPSHOT.jar code.lemma.LemmaIndexMapred -Dmapreduce.job.queuename=hadoop04 /shared/wikipedia10G-uncompressed /user/hadoop04/lt/lemma1 
+
+bin/yarn jar ~/wiki-0.0.1-SNAPSHOT.jar code.inverted.InvertedIndexMapred -Dmapreduce.job.queuename=hadoop04 /user/hadoop04/lt/lemma1 /user/hadoop04/lt/invert1
+
+bin/yarn jar ~/wiki-0.0.1-SNAPSHOT.jar code.inverted.InvertIndexCount -Dmapreduce.job.queuename=hadoop04 /user/hadoop04/lt/lemma1 /user/hadoop04/lt/invertcount
+
+bin/yarn jar ~/wiki-0.0.1-SNAPSHOT.jar code.querying.InvertedProcess -Dmapreduce.job.queuename=hadoop04 /user/hadoop04/lt/invert1
